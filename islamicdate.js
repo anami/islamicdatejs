@@ -81,13 +81,8 @@
 		}
 		year = cc-4716;
 
-		if(adjust) {
-			var wd = gmod(jd+1-adjust,7)+1;
-		} else {
-			var wd = gmod(jd+1,7)+1;
-		}
-
-		var z = jd-epochastro,
+		var wd = gmod(jd+1,7)+1,
+			z = jd-epochastro,
 			cyc = Math.floor(z/10631.);
 
 		z = z-10631*cyc;
