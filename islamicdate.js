@@ -26,10 +26,10 @@
 		epochastro = 1948084,
 		epochcivil = 1948085,
 		shift1 = 8.01/60.,
-		DAYNAMES = new Array("Ahad","Ithnin","Thulatha","Arbaa","Khams","Jumuah","Sabt"),
+		DAYNAMES = new Array("Ahad","Ithnain","Thulatha","Arbi'aa","Khamees","Jumuah","Sabt"),
 		MONTHNAMES = new Array("Muharram","Safar","Rabi'ul Awwal","Rabi'ul Akhir",
-		"Jumadal Ula","Jumadal Akhira","Rajab","Sha'ban",
-		"Ramadan","Shawwal","Dhul Qa'ada","Dhul Hijja");
+		"Jumadal Ula","Jumadal Ukhra","Rajab","Sha'ban",
+		"Ramadan","Shawwal","Dhul Qa'adah","Dhul Hijjah");
 
 
 	function gmod(n,m){
